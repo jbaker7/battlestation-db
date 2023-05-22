@@ -1,0 +1,7 @@
+<svg classname="h-8 w-4 mr-1 inline text-primary" viewBox="0 0 100 200" xmlns="http://www.w3.org/2000/svg">
+  <defs></defs>
+  <path d="M 73.024 42.192 L 73.024 73.69 L 45.959 89.316 L 45.959 26.566 L 73.024 42.192 Z" fill="currentColor"></path>
+  <path d="M 73.024 119.281 L 73.024 150.779 L 45.959 166.405 L 45.959 103.655 L 73.024 119.281 Z" fill="currentColor"></path>
+  <path d="M 33.969 19.641 L 33.969 173.359 L 6.904 188.985 L 6.904 4.015 L 33.969 19.641 Z" fill="currentColor"></path>
+  <path d="M 55.884 113.37 L 85.096 96.42 L 55.884 79.555 L 55.884 113.37 Z" fill="currentColor" style="opacity:40%" transform="matrix(-1, 0, 0, -1, 140.98, 192.925003)"></path>
+</svg>

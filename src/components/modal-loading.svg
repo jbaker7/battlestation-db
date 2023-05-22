@@ -1,0 +1,16 @@
+<svg id="loading-hex" stroke="currentColor" stroke-width="6" width="100px" height="100px" viewBox="-16 -16 332 332" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="glow" x="-25%" y="-25%" height="150%" width="150%">
+      <feGaussianBlur class="blur" result="coloredBlur" stdDeviation="8" in="SourceGraphic"></feGaussianBlur>
+    </filter>
+  </defs>
+  <polygon fill="none" points="300,150 225,280 75,280 0,150 75,20 225,20"></polygon>
+  <polygon fill="none" points="300,150 225,280 75,280 0,150 75,20 225,20" filter="url(#glow)"></polygon>
+  <path fill="none" d="M 92.659 149.999 L 130.886 188.226 L 207.34 111.774" filter="url(#glow)"></path>
+  <path fill="none" d="M 92.659 149.999 L 130.886 188.226 L 207.34 111.774"></path>
+
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="12" cy="12" r="9" />
+                        <line x1="12" y1="8" x2="12" y2="12" />
+                        <line x1="12" y1="16" x2="12.01" y2="16" />
+</svg>

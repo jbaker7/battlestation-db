@@ -1,0 +1,20 @@
+
+.admin-btn-active {
+    @apply btn;
+    @apply !bg-transparent;
+    @apply !border-primary;
+    @apply !text-primary;
+    @apply text-lg; 
+    @apply font-normal; 
+    @apply normal-case; 
+    @apply w-full;
+}
+
+.admin-btn {
+    @apply btn;
+    @apply btn-ghost;
+    @apply text-lg;
+    @apply font-light;
+    @apply normal-case;
+    @apply w-full;
+    }

@@ -1,0 +1,96 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+body {
+    background-color: #eee;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 1fr 1fr;
+    color: #eee;
+}
+
+.logo {
+    background-color: #232931;
+    padding: 8px;
+}
+
+.user-nav {
+    display: flex;
+    justify-content: right;
+    background-color: #232931;
+    padding: 8px;
+}
+
+.site-nav {
+    grid-column: 1 / span 2;
+    background-color: #393E46;
+    padding: 8px;
+}
+
+.user-nav ul, .site-nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.user-nav li:not(:last-of-type), .site-nav li:not(:last-of-type) {
+    padding-right: 1.5rem;
+}
+
+
+.user-nav a, .site-nav a {
+    color: #eee;
+    text-decoration: none;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    //border: 1px solid red;
+}
+
+
+.parts-list {
+    display: grid;
+    grid-template-columns: [item-type] max-content [item-description] auto [item-price] max-content;
+    border: 1px solid #555;
+}
+
+.parts-list span {
+    padding: 1rem;
+}
+
+
+.item-type-header, .item-description-header, .item-price-header {
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+}
+
+.item-type, .item-description, .item-price {
+    border-bottom: 1px solid #ddd;
+}
+
+.item-type {
+    color: #444;
+}
+
+.item-description {
+    //grid-area: item-description;
+}
+
+.item-price {
+    //grid-area: item-price;
+} */

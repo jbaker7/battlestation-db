@@ -1,0 +1,175 @@
+.custom-scrollbars {
+    scrollbar-color: #ffffff99 #00000044;
+    scrollbar-width: thin;
+}
+
+.custom-scrollbars::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.custom-scrollbars::-webkit-scrollbar-track {
+    background-color: #00000044;
+    border-radius: 8px;
+}
+
+.custom-scrollbars::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: #ffffff99;
+}
+
+.custom-scrollbars::-webkit-scrollbar-thumb:hover {
+    background-color: #ffffffdd;
+}
+
+.skeleton {
+    background: linear-gradient(90deg, 
+    hsl(var(--b3)) 0%, hsl(var(--b3)) 47%, 
+    hsl(var(--b1)) 50%, 
+    hsl(var(--b3)) 53%, hsl(var(--b3)) 100%);
+    background-size: 200% 200%; 
+    -webkit-animation: Animation 3s ease infinite;
+    -moz-animation: Animation 3s ease infinite;
+    animation: Animation 3s ease infinite;
+}
+
+@-webkit-keyframes Animation {
+    0%{background-position: 120%}
+    100%{background-position:-20%}
+}
+@-moz-keyframes Animation {
+    0%{background-position:120%}
+    100%{background-position:-20%}
+}
+@keyframes Animation { 
+    0%{background-position:120%}
+    100%{background-position:-20%}
+}
+
+.hex-animation {
+    stroke-dasharray: 150;
+    -webkit-animation: dash 2s cubic-bezier(0.35, 0.04, 0.63, 0.95) infinite;
+        animation: dash 2.5s cubic-bezier(0.35, 0.04, 0.63, 0.95) infinite;
+}
+
+@-moz-keyframes dash {
+    to {
+        stroke-dashoffset: 600;
+    }
+}
+   
+@-webkit-keyframes dash {
+    to {
+        stroke-dashoffset: 600;
+    }
+}
+   
+@keyframes dash {
+    to {
+        stroke-dashoffset: 600;
+    }
+}
+
+.like-heart-empty {
+    fill: none
+}
+
+.like-button-heart-glow {
+    transition: 0.5s ease;
+    fill: #A4CC14;
+    -webkit-animation: heart-glow .5s ease 1;
+    animation: heart-glow .5s ease 1;
+}
+
+.like-button-heart-loading {
+    fill: none;
+    -webkit-animation: heart-loading 2s linear infinite;
+    animation: heart-loading 2s linear infinite;
+}
+
+@keyframes heart-glow {
+    0% {
+        filter: drop-shadow( 0 0 0px #A4CC14);
+        fill: none;
+    }
+    50% {
+        filter: drop-shadow( 0 0 5px #A4CC14) drop-shadow( 0 0 5px #A4CC14) drop-shadow( 0 0 5px #A4CC14);
+    }
+    100% {
+        filter: drop-shadow( 0 0 0px #A4CC14);
+        fill: #A4CC14;
+    }
+}
+
+@-moz-keyframes heart-glow {
+    0% {
+        filter: drop-shadow( 0 0 0px #A4CC14);
+        fill: none;
+    }
+    50% {
+        filter: drop-shadow( 0 0 5px #A4CC14) drop-shadow( 0 0 5px #A4CC14) drop-shadow( 0 0 5px #A4CC14);
+    }
+    100% {
+        filter: drop-shadow( 0 0 0px #A4CC14);
+        fill: #A4CC14;
+    }
+}
+
+@-webkit-keyframes heart-glow {
+    0% {
+        filter: drop-shadow( 0 0 0px #A4CC14);
+        fill: none;
+    }
+    50% {
+        filter: drop-shadow( 0 0 5px #A4CC14) drop-shadow( 0 0 5px #A4CC14) drop-shadow( 0 0 5px #A4CC14);
+    }
+    100% {
+        filter: drop-shadow( 0 0 0px #A4CC14);
+        fill: #A4CC14;
+    }
+}
+
+@keyframes heart-loading {
+    0% {
+        stroke-dasharray: 0 100;
+        stroke-dashoffset: 15.5;
+    }
+    50% {
+        stroke-dasharray: 100 0;
+        stroke-dashoffset: 115.5;
+    }
+    100% {
+        stroke-dasharray: 0 100;
+        stroke-dashoffset: 115.5;
+    }
+}
+
+@-moz-keyframes heart-loading {
+    0% {
+        stroke-dasharray: 0 100;
+        stroke-dashoffset: 15.5;
+    }
+    50% {
+        stroke-dasharray: 100 0;
+        stroke-dashoffset: 115.5;
+    }
+    100% {
+        stroke-dasharray: 0 100;
+        stroke-dashoffset: 115.5;
+    }
+}
+
+@-webkit-keyframes heart-loading {
+    0% {
+        stroke-dasharray: 0 100;
+        stroke-dashoffset: 15.5;
+    }
+    50% {
+        stroke-dasharray: 100 0;
+        stroke-dashoffset: 115.5;
+    }
+    100% {
+        stroke-dasharray: 0 100;
+        stroke-dashoffset: 115.5;
+    }
+}
